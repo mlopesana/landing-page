@@ -6,10 +6,11 @@ body{
     margin: 0 auto;
     padding: 15px;
 }
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url("https://fonts.googleapis.com");
-@import url("https://fonts.gstatic.com");
-
+@font-face {
+    font-family: poppinsregular, poppinsmedium, poppinslight;
+    src: url(/components/fonts/poppins-regular-webfont.woff);
+}
+ 
 
 header{
     display: flex;
